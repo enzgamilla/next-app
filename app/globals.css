@@ -26,7 +26,11 @@ body {
 }
 
 @layer components {
-  tbody {
+  th {
+    @apply text-gray-200 font-semibold text-xl;
+  }
+
+  td {
     @apply text-gray-500;
   }
 }
