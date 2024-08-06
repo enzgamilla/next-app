@@ -1,6 +1,6 @@
 import React from "react";
-import UserTable from "./new/UserTable";
 import Link from "next/link";
+import UserTable from "./UserTable";
 
 interface Props {
   searchParams: { sortOrder: string };
