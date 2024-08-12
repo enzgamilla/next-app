@@ -1,9 +1,9 @@
 import ProductCard from "./components/ProductCard/ProductCard";
-import { authOption } from "./api/auth/[...nextauth]/route";
+import { authOptions } from "./api/auth/authOptions";
 import { getServerSession } from "next-auth";
 
 export default async function Home() {
-  const session = await getServerSession(authOption);
+  const session = await getServerSession(authOptions);
 
   return (
     <main>
